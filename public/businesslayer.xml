@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1256"?>
+<Root>
+  <Inference Name="differentiation_model">
+    <Cluster Name="differentiation_model">
+
+
+      <Rule Name="r3" game="Volleyball">
+        <Tuple Cpt="member" Prop="fitness" Val="high"/>
+        <Tuple Cpt="member" Prop="speed" Val="medium"/>
+        <Tuple Cpt="member" Prop="tallness" Val="low"/>
+        <Tuple Cpt="member" Prop="weight" Val="medium"/>
+      </Rule>
+      <Rule Name="r4" game="Tennis">
+        <Tuple Cpt="member" Prop="fitness" Val="high"/>
+        <Tuple Cpt="member" Prop="speed" Val="high"/>
+        <Tuple Cpt="member" Prop="tallness" Val="high"/>
+        <Tuple Cpt="member" Prop="weight" Val="medium"/>
+      </Rule>
+      
+      <Rule Name="r6" game="Swimming">
+        <Tuple Cpt="member" Prop="fitness" Val="high"/>
+        <Tuple Cpt="member" Prop="speed" Val="low"/>
+        <Tuple Cpt="member" Prop="tallness" Val="low"/>
+        <Tuple Cpt="member" Prop="weight" Val="low"/>
+      </Rule>
+      
+      <Rule Name="r8" game="shrab">
+        <Tuple Cpt="member" Prop="fitness" Val="low"/>
+        <Tuple Cpt="member" Prop="speed" Val="low"/>
+        <Tuple Cpt="member" Prop="tallness" Val="low"/>
+        <Tuple Cpt="member" Prop="weight" Val="low"/>
+      </Rule>
+
+    <Rule Name="r1" game="rakby"><Tuple Cpt="member" Prop="fitness" Val="high"/><Tuple Cpt="member" Prop="speed" Val="high"/><Tuple Cpt="member" Prop="tallness" Val="high"/><Tuple Cpt="member" Prop="weight" Val="high"/></Rule></Cluster>
+  </Inference>
+</Root>
